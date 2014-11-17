@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta Tags -->
+	<meta charset="UTF-8">
+	
+	<!-- Style Sheets -->
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css"/> 
+
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+
+	<!-- JavaScript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+	<title>Trivia Time</title>
+</head>
+<body>
+	<header>
+		<h2> Do you feel like you know fairbit about cricket? <br>Then its time tryout you knowledge.</h2>
+		<h3> Trivia Round 1 !! </h3>
+		<div id="progressBar">
+			<div id = "bar1"></div>
+			<div id = "bar2"></div>
+			<div id = "bar3"></div>
+			<div id = "bar4"></div>
+			<div id = "bar5"></div>
+		</div>
+	</header>
+	<article>
+		<div id="image1"></div>
+		
+		<div id="startQuiz">
+			<P>Take the Quiz now</P>
+			<button class="btn" id="triviaTime">Trivia Time</button>
+		</div>
+		
+		<div id="main">
+			<div id="question1">
+				<p class= "question"> Who won the first oneday International Game?</p>
+				<ul id = "answer1">
+					<li class="options">
+						<img src="images/tick.gif" class="selected">
+						<span>England</span>
+					</li>
+					<li class="options">
+						<img src="images/tick.gif" class="selected">
+						<span>Australia</span>
+					</li>
+					<li class="options">
+						<img src="images/tick.gif" class="selected">
+						<span>South Africa</span>
+					</li>
+					<li class="options">
+						<img src="images/tick.gif" class="selected">
+						<span>India</span>
+					</li>
+				</ul>
+				<button class="btn" id="submit">Submit</button>
+			</div>
+			<div class = "answerInfo">
+				<p>The first one-day international was held between England and Australia at Melbourne in 1971. Actually the first four days of a test match had been rained out, so on the final day the first ever one-day international was organized. Australia won the match</p>
+				<button class="btn" id="next">Next</button>
+			</div>
+			<div id="question2"></div>
+			<div id="question3"></div>
+			<div id="question4"></div>
+			<div id="question5"></div>			
+		</div>
+
+		<div id="image2"></div>
+	</article>
+	<!--<footer>
+		<table style= width="100%" border = "1px">
+		    <tr>
+			    <td>Q1</td>
+			    <td>Q2</td>		
+			    <td>Q3</td>
+			    <td>Q4</td>
+			    <td>Q5</td>
+			 </tr>
+  
+		</table>
+	</footer>-->
+</body>
+</html>
