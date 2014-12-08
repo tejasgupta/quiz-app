@@ -179,7 +179,7 @@ header h3 {
 	display: none;
 	background-color: rgb(124, 132, 124);
 }
-#question1 {
+#question1, #question2, #question3, #question4, #question5, #finalPage {
 	position: relative;
 	display: none;
 }
@@ -194,24 +194,23 @@ header h3 {
 }
 /*----------------------------------Answer Stying----------------------------------*/
 
-#submit {
+#submit1, #submit2, #submit3, #submit4, #submit5, #restart {
 	position: relative;
 	float: right;
 	top: 115px;
 	right: 236px;
 }
-#answer1 {
+#answer1, #answer2, #answer3, #answer4, #answer5{
 	position: relative;
 	top: 20px;
 	font-family: Comic Sans, Comic Sans MS, cursive;
 	font-size: 2em;
 }
-.options{
+.answer1 div, .answer2 div, .answer3 div, .answer4 div, .answer5 div{
 	position: relative;
-	margin-top: 10px;
 }
-answer1 div{
-	position: relative;
+#a1, #a2, #a3, #a4, #a5 {
+	display: none;
 }
 .answerBtn{
    border-top: 1px solid #96d1f8;
@@ -236,7 +235,7 @@ answer1 div{
    vertical-align: middle;
    position: relative;
    left: 10px;
-   width: 155px;
+   min-width: 200px;
 }
 .answerBtn:hover {
    background: #b6e026; /* Old browsers */
@@ -274,7 +273,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', end
 	font-family: 'Tangerine', serif;
 	color: green;
 }
-#next {
+#next1, #next2, #next3, #next4, #next5 {
 	text-align: center;
 	position: relative;
 	top: 100px;
