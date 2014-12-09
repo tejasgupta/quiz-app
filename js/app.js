@@ -162,7 +162,7 @@ $(document).ready(function(){
 			$('#answerBar').find('#t5').show();
 
 		} else {
-			$('#question4').hide();
+			$('#question5').hide();
 			$('#a5').show();
 			//alert ('wrong answer');
 			$('.correctAnswer').hide();
